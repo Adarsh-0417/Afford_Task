@@ -1,0 +1,76 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-bar {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.nav-button {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.content {
+  flex: 1;
+  background-color: #f9fafb;
+}
+
+.app-footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-top: 32px;
+  font-size: 14px;
+}
+
+.app-footer p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    font-size: 16px;
+  }
+
+  .nav-button {
+    font-size: 12px !important;
+    padding: 6px 8px !important;
+  }
+}
+

@@ -1,0 +1,19 @@
+.notification-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .notification-list {
+    gap: 8px;
+  }
+}

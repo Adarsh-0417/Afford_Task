@@ -6,7 +6,7 @@
  * Example: node main.js 10
  */
 
-import { displayTopNotifications } from './notificationSystem.js';
+import { displayTopNotifications } from './notification_app_be/notificationSystem.js';
 
 // Get top N from command line argument, default to 10
 const topN = parseInt(process.argv[2]) || 10;

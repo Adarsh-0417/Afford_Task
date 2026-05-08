@@ -1,0 +1,40 @@
+.filter-bar {
+  margin-bottom: 24px;
+  padding: 16px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.filter-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .filter-bar {
+    margin-bottom: 16px;
+    padding: 12px;
+  }
+
+  .filter-container {
+    gap: 8px;
+  }
+
+  .filter-container > * {
+    flex: 1;
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .filter-container {
+    flex-direction: column;
+  }
+
+  .filter-container > * {
+    width: 100%;
+  }
+}

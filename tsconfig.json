@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["notification_app_fe/src", "notification_app_fe/components", "notification_app_fe/hooks", "notification_app_fe/pages"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

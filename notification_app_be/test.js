@@ -6,7 +6,7 @@
  */
 
 import { sampleNotifications } from './testData.js';
-import { calculatePriority } from './notificationSystem.js';
+import { calculatePriority } from './notification_app_be/notificationSystem.js';
 
 function formatNotification(notification, index) {
   return `
